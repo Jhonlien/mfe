@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths: 
-      - packages/container/**
+      - 'packages/container/*'
   pull_request:
     branches: 
       - main
