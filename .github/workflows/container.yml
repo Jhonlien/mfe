@@ -2,8 +2,7 @@ name: deploy-container
 
 on: 
   push:
-    paths:
-      - 'packages/container/**'
+    paths: 'packages/container/**'
 
   pull_request:
     branches: 
